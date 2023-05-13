@@ -1,0 +1,92 @@
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    html {
+        scroll-behavior: smooth;
+        font-family: 'Montserrat', sans-serif;
+        font-family: 'Nunito', sans-serif;
+    }
+
+    .header {
+        background: #df0000;
+        color: white;
+        height: 8.5rem;
+
+    }
+
+    .logo img {
+        height: 7.9rem;
+        width: 11.5rem;
+        position: absolute;
+        top: 0.5%;
+        left: 0.5%;
+        border-radius: 5px;
+        border:solid black 3px;
+    }
+
+    .active {
+        background: rgb(255, 255, 255);
+    }
+
+
+    .productpagina1blok {
+        display: flex;
+        font-size: 1.1rem;
+        background: #df0000;
+        margin-left: 10rem;
+        width: 8.5rem;
+        height: 6rem;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        top: 2%;
+        right: 22%;
+        border-radius: 7px;
+        border:solid white 2.5px;
+
+    }
+
+    .productpagina2blok {
+        display: flex;
+        font-size: 1.1rem;
+        background: rgb(255, 255, 255);
+        color: #df0000;
+        margin-left: 10rem;
+        width: 8.5rem;
+        height: 6rem;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        top: 2%;
+        right: 10%;
+        border-radius: 7px;
+
+    }
+
+
+    a {
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+    }
+
+    .banner img{
+        width:100vw;
+    }
+
+
+    .bannertext{
+        display:flex;
+        position:absolute;
+        color:white;
+        background:#df0000;
+        margin-left:2.5rem;
+        width:20rem;
+        height:2rem;
+        justify-content:center;
+        align-items:center;        
+    }
+
+    
