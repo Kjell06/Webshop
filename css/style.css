@@ -6,25 +6,25 @@
 
     html {
         scroll-behavior: smooth;
-        font-family: 'Montserrat', sans-serif;
         font-family: 'Nunito', sans-serif;
+        font-size:62.5%;
     }
 
     .header {
         background: #df0000;
         color: white;
-        height: 8.5rem;
+        height:12rem;
 
     }
 
     .logo img {
-        height: 7.9rem;
-        width: 11.5rem;
+        height: 10.5rem;
+        width: 17rem;
         position: absolute;
         top: 0.5%;
         left: 0.5%;
         border-radius: 5px;
-        border:solid black 3px;
+        box-shadow:0.3rem 0.2rem 0.5rem rgb(74, 70, 70);
     }
 
     .active {
@@ -34,35 +34,36 @@
 
     .productpagina1blok {
         display: flex;
-        font-size: 1.1rem;
+        font-size: 2rem;
         background: #df0000;
-        margin-left: 10rem;
-        width: 8.5rem;
-        height: 6rem;
+        width: 17rem;
+        height: 4rem;
         align-items: center;
         justify-content: center;
         position: absolute;
-        top: 2%;
-        right: 22%;
-        border-radius: 7px;
+        top: 4.5%;
+        right: 20%;
+        border-radius:0.8rem;
         border:solid white 2.5px;
+        box-shadow:0.3rem 0.2rem 0.5rem rgb(74, 70, 70);
 
     }
 
     .productpagina2blok {
         display: flex;
-        font-size: 1.1rem;
-        background: rgb(255, 255, 255);
-        color: #df0000;
-        margin-left: 10rem;
-        width: 8.5rem;
-        height: 6rem;
+        font-size: 2rem;
+        background: #df0000;
+        margin-left: 20rem;
+        width: 17rem;
+        height: 4rem;
         align-items: center;
         justify-content: center;
         position: absolute;
-        top: 2%;
-        right: 10%;
-        border-radius: 7px;
+        top: 4.5%;
+        right: 6%;
+        border-radius:0.8rem;
+        border:solid white 2.5px;
+        box-shadow:0.3rem 0.2rem 0.5rem rgb(74, 70, 70);
 
     }
 
@@ -72,21 +73,79 @@
         color: rgb(255, 255, 255);
     }
 
-    .banner img{
-        width:100vw;
+
+
+    .bannerlogo{
+        width:100%;
+        height: 40%;
+    }
+    
+    .container{
+        position: relative;
+        text-align: center;
+        color: white;
+    }
+    
+    .text-image{
+        position: absolute;
+        top: 34.5rem;
+        left: 6rem;
+        font-family: 'Nunito', sans-serif;
+        font-weight: 600;
+        font-size: larger;
+        border-radius: 1rem;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size:1.8rem;
+    }
+    
+    .button-image{
+        position: absolute;
+        font-family: 'Nunito', sans-serif;
+        top: 38rem;
+        left: 9.5rem;
+        font-size: larger;
+        border-radius: 1.5rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 14rem;
+        height: 4rem;
+        border:solid white 2.5px;
     }
 
 
-    .bannertext{
-        display:flex;
-        position:absolute;
-        color:white;
-        background:#df0000;
-        margin-left:2.5rem;
-        width:20rem;
-        height:2rem;
-        justify-content:center;
-        align-items:center;        
+    .headingblok{
+        height:60rem;
+        background:lightblue;
+        margin-bottom:5rem;
+        margin-top:5rem;
     }
 
+
+    .headingfoto{
+        width:60rem;
+        height:45rem;
+        border-radius:1rem;
+        margin-top:7.5rem;
+        margin-left:10rem;
+    }
+
+    .blokheading, p{
+        font-size:3.5rem;
+        font-family: 'Nunito', sans-serif;
+        margin-left:63%;
+        margin-top:0;
+
+    }
+    
+
+
+
+
+
+
+    
     
