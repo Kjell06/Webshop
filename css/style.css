@@ -7,13 +7,13 @@
     html {
         scroll-behavior: smooth;
         font-family: 'Nunito', sans-serif;
-        font-size:62.5%;
+        font-size: 62.5%;
     }
 
     .header {
         background: #df0000;
         color: white;
-        height:12rem;
+        height: 12rem;
 
     }
 
@@ -24,7 +24,7 @@
         top: 0.5%;
         left: 0.5%;
         border-radius: 5px;
-        box-shadow:0.3rem 0.2rem 0.5rem rgb(74, 70, 70);
+        box-shadow: 0.3rem 0.2rem 4rem rgb(74, 70, 70);
     }
 
     .active {
@@ -43,9 +43,8 @@
         position: absolute;
         top: 4.5%;
         right: 20%;
-        border-radius:0.8rem;
-        border:solid white 2.5px;
-        box-shadow:0.3rem 0.2rem 0.5rem rgb(74, 70, 70);
+        border-radius: 0.8rem;
+        border: solid white 2.5px;
 
     }
 
@@ -61,9 +60,8 @@
         position: absolute;
         top: 4.5%;
         right: 6%;
-        border-radius:0.8rem;
-        border:solid white 2.5px;
-        box-shadow:0.3rem 0.2rem 0.5rem rgb(74, 70, 70);
+        border-radius: 0.8rem;
+        border: solid white 2.5px;
 
     }
 
@@ -75,18 +73,18 @@
 
 
 
-    .bannerlogo{
-        width:100%;
+    .bannerlogo {
+        width: 100%;
         height: 40%;
     }
-    
-    .container{
+
+    .container {
         position: relative;
         text-align: center;
         color: white;
     }
-    
-    .text-image{
+
+    .text-image {
         position: absolute;
         top: 34.5rem;
         left: 6rem;
@@ -98,10 +96,10 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        font-size:1.8rem;
+        font-size: 1.8rem;
     }
-    
-    .button-image{
+
+    .button-image {
         position: absolute;
         font-family: 'Nunito', sans-serif;
         top: 38rem;
@@ -113,39 +111,410 @@
         align-items: center;
         width: 14rem;
         height: 4rem;
-        border:solid white 2.5px;
+        border: solid white 2.5px;
     }
 
 
-    .headingblok{
-        height:60rem;
-        background:lightblue;
-        margin-bottom:5rem;
-        margin-top:5rem;
+    .headingblok {
+        height: 60rem;
+        margin-bottom: 10rem;
+        margin-top: 5rem;
+        display: flex;
+        margin-bottom: 15rem;
     }
 
 
-    .headingfoto{
-        width:60rem;
-        height:45rem;
-        border-radius:1rem;
-        margin-top:7.5rem;
-        margin-left:10rem;
+    .headingfoto {
+        width: 65rem;
+        height: 45rem;
+        border-radius: 1rem;
+        margin-top: 7.5rem;
+        margin-left: 13rem;
+        position: absolute;
+        box-shadow: 0rem 0rem 40rem rgb(74, 70, 70);
+        transition: 0.3s transform;
     }
 
-    .blokheading, p{
-        font-size:3.5rem;
+    .headingfoto:hover {
+        transform: scale(1.05);
+        cursor: pointer;
+    }
+
+    .groteheading {
+        font-size: 5.5rem;
         font-family: 'Nunito', sans-serif;
-        margin-left:63%;
-        margin-top:0;
+        margin-left: 55%;
+        margin-top: 3%;
+        position: absolute;
+    }
 
+    .textgroteheading {
+        font-size: 2.5rem;
+        font-family: 'Nunito', sans-serif;
+        margin-left: 55%;
+        margin-top: 9%;
+        position: absolute;
+        width: 45rem;
+    }
+
+    .buttonheading {
+        position: absolute;
+        font-family: 'Nunito', sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 1.5rem;
+        width: 25rem;
+        height: 5.5rem;
+        border: solid #4a4646 1px;
+        background: none;
+        margin-top: 19%;
+        margin-left: 55%;
+        font-size: 2.5rem;
+        color: black;
+        background: #df0000;
+    }
+
+
+
+    /*vier versillende producten*/
+
+    .vierproducten {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: 30rem;
+        gap: 6rem;
+        margin-bottom: 35rem;
+    }
+
+    .product1:hover {
+        transform: scale(1.05);
+        cursor: pointer;
+    }
+
+    .product2:hover {
+        transform: scale(1.05);
+        cursor: pointer;
+    }
+
+    .product3:hover {
+        transform: scale(1.05);
+        cursor: pointer;
+    }
+
+    .product4:hover {
+        transform: scale(1.05);
+        cursor: pointer;
+    }
+
+    .product1 {
+        width: 40rem;
+        height: 45rem;
+        background: #eee;
+        box-shadow: 0rem 0rem 5rem rgb(204, 201, 201);
+        ;
+        border-radius: 2rem;
+        transition: 0.3s transform;
+    }
+
+    .product2 {
+        width: 40rem;
+        height: 45rem;
+        background: #eee;
+        box-shadow: 0rem 0rem 5rem rgb(204, 201, 201);
+        ;
+        border-radius: 2rem;
+        transition: 0.3s transform;
+    }
+
+    .product3 {
+        width: 40rem;
+        height: 45rem;
+        background: #eee;
+        box-shadow: 0rem 0rem 5rem rgb(204, 201, 201);
+        ;
+        border-radius: 2rem;
+        transition: 0.3s transform;
+    }
+
+    .product4 {
+        width: 40rem;
+        height: 45rem;
+        background: #eee;
+        box-shadow: 0rem 0rem 5rem rgb(204, 201, 201);
+        ;
+        border-radius: 2rem;
+        transition: 0.3s transform;
+    }
+
+
+    .product1 img {
+        width: 100%;
+        height: 100%;
+        border-radius: 2rem;
+    }
+
+    .product2 img {
+        width: 100%;
+        height: 100%;
+        border-radius: 2rem;
+    }
+
+    .product3 img {
+        width: 100%;
+        height: 100%;
+        border-radius: 2rem;
+    }
+
+    .product4 img {
+        width: 100%;
+        height: 100%;
+        border-radius: 2rem;
+    }
+
+
+
+    /*Vier verchillende website stappen*/
+
+    .stappenblokken {
+        width: 100%;
+        font-family: 'Nunito', sans-serif;
+        margin-bottom: 15rem;
+    }
+
+    .stapblokken {
+        width: 95%;
+        /*even checken*/
+        height: 25rem;
+        display: flex;
+        border-radius: 2rem;
+        margin: 6rem;
+        box-shadow: 0rem 0rem 5rem rgb(204, 201, 201);
+        ;
+        background: #eee;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .stapblok1 {
+        width: 40rem;
+        height: 30rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        font-size: 1.5rem;
+    }
+
+    .stapblok2 {
+        width: 40rem;
+        height: 30rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        font-size: 1.5rem;
+    }
+
+    .stapblok3 {
+        width: 40rem;
+        height: 30rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        font-size: 1.5rem;
+    }
+
+    .stapblok4 {
+        width: 40rem;
+        height: 30rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        font-size: 1.5rem;
+    }
+
+    .blokfoto {
+        width: 40%;
+        height: 50%;
+    }
+
+    /*De nieuwe Cherry functie*/
+
+    .gaafproduct {
+        height: 60rem;
+        margin-bottom: 10rem;
+        margin-top: 5rem;
+        display: flex;
+        margin-bottom: 40rem;
+        position: relative;
+    }
+
+
+    .productfoto {
+        width: 50rem;
+        height: 60rem;
+        border-radius: 1rem;
+        margin-top: 7.5rem;
+        margin-left: 60%;
+        position: absolute;
+        box-shadow: 0rem 0rem 40rem rgb(74, 70, 70);
+        transition: 0.3s transform;
+    }
+
+    .productfoto:hover {
+        transform: scale(1.05);
+        cursor: pointer;
+    }
+
+    .headinggaafproduct {
+        font-size: 5.5rem;
+        font-family: 'Nunito', sans-serif;
+        margin-left: 10%;
+        margin-top: 3%;
+        position: relative;
+        width: 100%;
+
+    }
+
+    .textgaafproduct {
+        font-size: 2.5rem;
+        font-family: 'Nunito', sans-serif;
+        margin-left: 4%;
+        margin-top: 4%;
+        position: absolute;
+
+
+    }
+
+    /*Reviews*/
+
+
+    .sectionreviews {
+        background: #eee;
+    }
+
+    .section{
+        height:10rem;
+    }
+    
+    
+    
+    .arrow{
+        width:10%;
+        height:100%;
+        background:white;
+        font-size:300%;
+        outline:none;
+        border:none;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+    }
+    
+    .arrow.hover{
+        cursor:pointer;
+    }
+    
+    
+    .reviews{
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        height:100%;    
+        gap: 2rem;
+        width:80%;
+        flex-wrap:wrap;
+    }
+    
+    
+    .review{
+        width:30rem;
+        min-height:20rem;
+        background:darkred;
+        list-style:none;
+        padding:4rem;
+         border-radius:0.5rem;
+         background:white;
+         box-shadow:0 1rem 1rem 0 rgba(0, 0, 0, 0.2),
+         inset 0 -1rem 1rem -1rem rgba(0, 0, 0, 0.1);
+         position: relative;
+         animation-name:fadeIn;
+         animation-duration:0.8s;
+    }
+    
+    .review:nth-of-type(4), .review:nth-of-type(5), .review:nth-of-type(6){
+        display:none;
+    } 
+    
+    
+    .profilepic1{
+        font-size:500%;
+        position:absolute;
+        top:0;
+        left:50%;
+        transform: translateX(-50%);
+        line-height:0.5;
+    }
+    
+    .stars{
+        color:gold;
+    }
+    
+    
+    .review p {
+        font-size:65%;
+        font-style:italic;
+        padding-bottom:2rem;
+        border-bottom:0.5rem solid rgba(0, 0, 0, 0.2);
     }
     
 
 
+    .top{
+        width:5rem;
+        height:5rem;
+        background:#222831;
+        border:none;
+        font-size: 150%;
+        font-family: 'Montserrat', sans-serif;
+        border-radius:5px;
+        color:white;
+        position:fixed;
+        bottom:120px;
+        right:120px;
+        text-decoration:none;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+    }
 
 
-
-
+    @keyframes fadeIn{
+        from{
+            opacity:0;
+            filter:blur(10px);
+        }
+        to{
+            opacity:1;
+            filter:(0);
+        }
+    }
     
-    
+    @media screen and (max-width: 50rem) {
+        .arrow{
+            display:none;
+        }
+        .reviews{
+            width:100%;
+        }
+        .top{
+            width:3.75rem;
+            height:3.75rem;
+            bottom:3.75rem;
+            right:3.75rem;
+            }
+    }
