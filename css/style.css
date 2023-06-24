@@ -14,21 +14,33 @@
         background: #df0000;
         color: white;
         height: 12rem;
+        width: 100%;
+        display:flex;
 
     }
 
-    .logo img {
-        height: 10.5rem;
+    .logoimage{
+        height: 10rem;
         width: 17rem;
-        position: absolute;
-        top: 0.5%;
-        left: 0.5%;
-        border-radius: 5px;
+        align-items:center;
+        margin-left:5%;
+        margin-top:5%;
+        border-radius:0.5rem;
         box-shadow: 0.3rem 0.2rem 4rem rgb(74, 70, 70);
     }
 
     .active {
         background: rgb(255, 255, 255);
+    }
+
+
+    .productpaginablok{
+        gap:4rem;
+        display:flex;
+        width:20%;
+        justify-content:center;
+        align-items:center;
+        margin-left:60%;
     }
 
 
@@ -40,11 +52,8 @@
         height: 4rem;
         align-items: center;
         justify-content: center;
-        position: absolute;
-        top: 4%;
-        right: 20%;
         border-radius: 0.8rem;
-        border: solid white 2.5px;
+        border: solid white 0.25rem;
 
     }
 
@@ -52,16 +61,12 @@
         display: flex;
         font-size: 2rem;
         background: #df0000;
-        margin-left: 20rem;
         width: 17rem;
         height: 4rem;
         align-items: center;
         justify-content: center;
-        position: absolute;
-        top: 4%;
-        right: 6%;
         border-radius: 0.8rem;
-        border: solid white 2.5px;
+        border: solid white 0.25rem;
 
     }
 
@@ -166,7 +171,7 @@
         border-radius: 1.5rem;
         width: 25rem;
         height: 5.5rem;
-        border: solid #4a4646 1px;
+        border: solid #4a4646 0.1rem;
         background: none;
         margin-top: 19%;
         margin-left: 55%;
@@ -505,6 +510,7 @@
         height:16rem;
         background:#554c4c;
         font-family: 'Montserrat', sans-serif;
+        display:flex;
     }
 
     .contactgegevens{
@@ -514,18 +520,26 @@
         margin-left:5rem;
         color:rgb(255, 255, 255);
         text-decoration: underline 1px solid rgb(255, 255, 255);
-        position: absolute;
+        flex-direction: column;
+        gap: 2rem;
+        padding-top: 2rem;
     
     }
 
     .overprogrammeur{
         font-size:2rem;
         display:flex;
-        justify-content:center;
         color:rgb(255, 255, 255);
         text-decoration: underline 1px solid rgb(255, 255, 255);
-        
-        
+        align-items:center;
+        margin-left:15%;
+    }
+
+
+    .footerblok{
+        width:100%;
+        height:100%;
+        display:flex;
     }
     
 
@@ -612,8 +626,7 @@
         cursor: pointer;
     }
     
-    .fotoblokproduct, img{
-        background: rgb(152, 156, 158);
+    .fotoblokproduct, img{ 
         width: 100%;
         height: 18rem;
     }
@@ -661,9 +674,11 @@
         display: none;
         position: absolute;
         background-color: #f1f1f1;
-        min-width: 160px;
+        min-width: 30rem;
+        height:30rem;
         box-shadow: 0rem 0.8rem 2rem 0rem rgba(0,0,0,0.2);
         z-index: 1;
+
       }
       
 
@@ -671,6 +686,7 @@
         color: rgb(255, 255, 255);
         text-decoration: none;
         display: block;
+        
       }
       
 
@@ -706,8 +722,145 @@
 
 
 
+      /*individueel pagina*/
+
+      .individueelblok1{
+        width:100%;
+        height:120rem;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+      }
+
+      .individueelinblok1{
+        border-radius:2rem;
+        width:90%;
+        height:90%;
+        background-color:#eee;
+        display:flex;
+        flex-wrap: wrap;
+
+      }
+
+      .individueelblok1foto{
+        height:40%;
+        width:35%;
+        margin-top:8%;
+        margin-left:10%;
+        border-radius:2rem;
+      }
+
+      .individueelblok1foto > img{
+        height:100%;
+        width:100%;
+        display:flex;
+        border-radius:2rem;
+        border:0.4rem solid #554c4c;
+        object-fit: fill;  
+      }
 
 
+      .individueelblok2{
+        width:45%;
+        height:50%;
+        background-color:#ddd;
+        margin-left:5%;
+        margin-top:5%;
+        border-radius:2rem;
+        
+      }
+
+      .winkelwagenknop{
+        border-radius:10rem;
+        height:9.5rem;
+        width:9.5rem;
+        display:flex;
+        margin-left:70%;
+      }
+
+      .winkelwagenknop > img{
+        height:100%;
+        width:100%;
+      }
+
+      .titel{
+        font-family: 'Montserrat', sans-serif;
+        font-size:6rem;
+        margin-left:10%;
+
+      }
+
+      .buttonblok{
+        width:40%;
+        height:40%;
+        margin-left:10%;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        gap:1rem;
+      }
+
+      .buttonblok--button{
+        font-family: 'Montserrat', sans-serif;
+        width:10rem;
+        height:6rem;
+        border-radius:17%;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        background:#726f6f;
+        border:#df0000 solid 0.2rem;
+    }
+
+      .prijs{
+        display:flex;
+        font-size:4rem;
+        margin-top:5%;
+        margin-left:10%;
+      }
+
+
+      
+      .individueelinblok1{
+        width:90%;
+        height:90%;
+        background-color:#eee;
+        display:flex;
+        flex-wrap: wrap;
+      }
+
+      
+      .individueelblok3{
+        display:flex;
+        width:35%;
+        height:40%;
+        border-radius:2rem;
+        font-size:2.3rem;
+        margin-left:17rem;
+      }
+
+      .individueelblok3 p{
+        background: #ddd;
+        padding: 4rem;
+        border-radius: 2rem;
+      }
+      
+
+      .voegtoeaanwinkelmandje{
+        width:25rem;
+        height:5rem;
+        border:0.2rem solid #df0000;
+        background:#726f6f;
+        border-radius:2rem;
+        display:flex;
+        margin-left:11rem;
+        font-size:1.5rem;
+        align-items:center;
+        justify-content:center;
+      }
+
+
+      /*animatie en responsive*/
 
     @keyframes fadeIn{
         from{
@@ -719,8 +872,23 @@
             filter:(0);
         }
     }
-    
-    @media screen and (max-width: 450px) {
+
+     
+    @media screen and (max-width: 1054px){
+            .voegtoeaanwinkelmandje
+                {
+                    margin-bottom: -50rem;
+                }
+            
+            .winkelwagenknop{
+                margin-right: -5rem;
+            }
+            .buttonblok{
+                margin-bottom: 5rem ;
+            }
+        
+    }
+    @media screen and (max-width: 451px) {
         .arrow{
             display:none;
         }
@@ -734,10 +902,137 @@
             bottom:3.75rem;
             right:3.75rem;
             }
+
         header{
-            grid-column:auto;
+            width: 100%;
         }
+
+        footer{
+            width:100%;
+        }
+
+
+        .overprogrammeur{
+            padding:1rem;
+        }
+
+        .contactgegevens{
+            margin-top:15%;
+            font-size:1rem;
+
+        }
+
+        .logoimage{
+            height:10rem;
+            width:15rem;
+            margin-top:2%;
+            margin-left: 2rem;
+        }
+
+        .productpagina1blok{
+            width: 16rem;
+        }
+
+        .productpaginablok{
+            width:40%;
+            flex-direction:column;
+            margin-left:10%;
+            gap:15%;
+        }
+
+
+        .titel{
+            font-size:4rem;
+        }
+
+        .buttonblok{
+            flex-direction:column;
+        }
+
+        .buttonblok--button{
+            width:100%;
+            height:100%;
+        }
+
+
+        .winkelwagenknop{
+            width:50%;
+            height:25%;
+            margin-left:10%;
+        }
+
+        .winkelwagenknop > img{
+            width:50%;
+            height:10%;
+            margin-left:10%;
+        }
+
+        .individueelinblok1{
+            flex-direction: column;
+            width: 100%;
+
+        }
+
+        .individueelblok1foto{
+            width: 80%;
+        }
+
+        .individueelblok2{
+            width: 90%;
+        }
+
+        .buttonblok--button{
+            width: 50%;
+            height: 30%;
+        }
+
+        .buttonblok{
+            flex-direction: row;
+        }
+              
+        .winkelwagenlink{
+            width: 10rem;
+        }
+
+        .contactgegevens{
+            margin: 0;
+            width: 7rem;
+        }
+
+        .overprogrammeur{
+            font-size: 1.5rem;
+        }
+
+      .individueelblok3{
+        display:flex;
+        margin:0;
+        width:0rem;
+        justify-content:center;
+      }
+
+     
+
+      .individueelblok3 p{
+        background: #ddd;
+        border-radius: 2rem;
+        font-size:0.8rem;
+      }
+      
+
+      .voegtoeaanwinkelmandje{
+        border:0.2rem solid #df0000;
+        background:#726f6f;
+        border-radius:2rem;
+        display:flex;
+        font-size:1.2rem;
+        align-items:center;
+        justify-content:center;
+        width:10rem;
+      }
+        
     }
+
+
 
 
 
