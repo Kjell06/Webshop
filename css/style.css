@@ -672,10 +672,10 @@
     }
     
     .textblokproduct{
+        color:black;
         width: 100%;
         height: 14rem;
         font-size:2rem;
-        color:#df0000;
         display:flex;
         flex-direction:column;
         align-items:center;
@@ -755,7 +755,7 @@
 
 
       .euro{
-        color:rgb(0, 0, 0);
+        color:#df0000;
         top:2rem;
         left:-8rem;
       }
@@ -918,13 +918,13 @@
         font-size:1.5rem;
         align-items:center;
         justify-content:center;
+        color:white;
       }
 
 
       /*winkelwagenpagina*/
 
       .winkelwagen--items{
-        width: 97%;
         background: white;
         margin: 3rem;
         list-style: none;
@@ -967,16 +967,6 @@
         margin-top:1rem;
     }
     
-    .totaal{
-        display: flex;
-        align-items: center;
-        justify-content: flex-end;
-        gap: 5rem;
-        font-size: 1.6rem;
-        padding: 6rem;
-        width: 160rem;
-        border:#726f6f;
-    }
     
     .winkelwagen--button:hover{
         cursor: pointer;
@@ -992,14 +982,6 @@
         border-radius:1rem;
     }
 
-    .totaal > h3 {
-        margin-right: 13rem;
-        width:20rem;
-        text-align: center;
-        border-radius:1rem;
-        border: 0.3rem solid #726f6f;
-        
-    }
 
 
       /*animatie en responsive*/
@@ -1018,6 +1000,106 @@
 
 
 
+    @media screen and (max-width: 1700px){
+        .productpaginablok{
+            margin-left:40rem;
+        }
+
+        .categoriecard{
+            height:150rem;
+        }
+
+        .individueelblok3text{
+            font-size:1.8rem;
+        }
+        
+        .groteheading{
+            font-size:4rem;
+        }
+
+
+    }
+
+    @media screen and (max-width: 1600px){
+        .headinggaafproduct{
+            font-size:4.5rem;
+        }
+
+        .textgaafproduct{
+            font-size:2rem;
+        }
+
+        .productfoto{
+            width:40rem;
+            height:40rem;
+        }
+
+    }
+
+    
+    @media screen and (max-width: 1529px){
+        .sectionreviews{
+            height:70rem;
+        }
+
+        .text-image{
+            margin-top:-9rem;
+        }
+
+        .button-image{
+            margin-top:-9rem;
+        }
+
+        .headingfoto{
+            width:50rem;
+            height:40rem;
+        }
+
+        .individueelblok3text{
+            font-size:1.2rem;
+        }
+        
+        .groteheading{
+            font-size:3rem;
+        }
+
+        .headinggaafproduct{
+            font-size:3.5rem;
+        }
+
+        .stapblokken{
+            width:100%;
+            margin-left:0;
+        }
+    }
+
+    @media screen and (max-width: 1230px){
+
+        .categoriecard{
+            height:180rem;
+        }
+
+        .overprogrammeur{
+            font-size:1.4rem;
+            margin-left:15rem;
+            
+        }
+
+        .headingfoto{
+            width:40rem;
+            height:30rem;
+            margin-left:6rem;
+        }
+
+        .individueelblok3text{
+            font-size:1.6rem;
+        }
+        
+        .groteheading{
+            font-size:3rem;
+        }
+
+    }
 
     @media screen and (max-width: 1070px){
             .voegtoeaanwinkelmandje{
@@ -1042,6 +1124,63 @@
             .productpaginablok{
                 margin-left:10rem;
             }
+
+            .titel{
+                font-size:4rem;
+            }
+
+            .sectionreviews{
+                height:120rem;
+            }
+
+            .text-image{
+                margin-top:-13rem;
+            }
+    
+            .button-image{
+                margin-top:-13rem;
+            }
+
+            .headingfoto{
+                margin-top:3rem;
+                width:30rem;
+                height:20rem;
+                margin-left:6rem;
+            }
+    
+            
+            .textgroteheading{
+                font-size:2rem;
+            }
+
+            .groteheading{
+                font-size:2.5rem;
+            }
+
+            .buttonheading{
+                width:14rem;
+                height:5rem;
+                font-size:1.5rem;
+            }
+
+            .headingblok{
+                height:30rem;
+            }
+
+            .productfoto{
+                width:30rem;
+                height:30rem;
+            }
+
+            .headinggaafproduct{
+                font-size:2.5rem;
+            }
+
+            .textgaafproduct{
+                font-size:2rem;
+                width:40rem;
+            }
+
         
     }
 
@@ -1070,8 +1209,61 @@
         .productpaginablok{
             width:20rem;
         }
+        
+        .individueelblok3text{
+            font-size:1.3rem;
+        }
+
+        .categoriecard{
+            height:250rem;
+            flex-direction: column;
+            width:5rem;
+        }
+    
+        .voegtoeaanwinkelmandje{
+            width:18rem;
+            margin-left:2rem;
+        }
+
+        .text-image{
+            margin-top:-20rem;
+            width:14rem;
+            font-size:1rem;
+        }
+
+        .button-image{
+            margin-top:-20rem;
+            width:10rem;
+            font-size:1rem;
+            margin-left:-1rem;
+        }
+
+        .headingfoto{
+            margin-top:3rem;
+            width:30rem;
+            height:20rem;
+            margin-left:4rem;
+        }
+
+        
+        .textgroteheading{
+            font-size:1.5rem;
+            width:30rem;
+        }
+
+        .groteheading{
+            font-size:2rem;
+        }
+
+        .buttonheading{
+            width:14rem;
+            height:5rem;
+            font-size:1.5rem;
+        }
+
 
 }
+
 
 
 @media screen and (max-width: 750px){
@@ -1080,7 +1272,201 @@
         margin-left:10rem;
     }
 
-}
+    .top{
+        font-size:3rem;
+    }
+
+    .winkelwagen--item{
+        width:40rem;
+    }
+
+    .img--winkelwagen{
+        width:10rem;
+        height:10rem;
+    }
+
+    .naamproduct{
+        font-size:1.5rem;
+    }
+
+    .prijs{
+        font-size:2rem;
+    }
+
+    .overprogrammeur{
+        font-size:1rem;
+        margin-left:8rem;
+    }
+
+    .individueelblok3text{
+        font-size:1rem;
+    }
+
+    .titel{
+        font-size:4rem;
+    }
+
+    .product1{
+        height:30rem;
+        width:30rem;
+    }
+
+    .product2{
+        height:30rem;
+        width:30rem;
+    }
+
+    .product3{
+        height:30rem;
+        width:30rem;
+    }
+
+    .product4{
+        height:30rem;
+        width:30rem;
+    }
+
+    .text-image{
+        margin-top:-25rem;
+    }
+
+    .button-image{
+        margin-top:-25rem;
+    }
+
+    .productfoto{
+        width:20rem;
+        height:20rem;
+    }
+
+    .headinggaafproduct{
+        font-size:2rem;
+    }
+
+    .textgaafproduct{
+        font-size:1.5rem;
+        width:40rem;
+    }
+
+    .vierproducten{
+        margin-bottom:15rem;
+    }
+
+
+    @media screen and (max-width: 650px){
+        .button-image{
+            width:5rem;
+            margin-top:-29rem;
+        }
+
+        .text-image{
+            font-size:0.8rem;
+            margin-left:-2rem;
+            margin-top:-27rem;
+        }
+
+        .headingfoto{
+            width:20rem;
+        }
+
+        .groteheading{
+            margin-left:30rem;
+            font-size:1.5rem;
+        }
+
+        .textgroteheading{
+            font-size:1rem;
+            margin-left:33rem;
+            width:15rem;
+        }
+
+        .buttonheading{
+            width:10rem;
+            height:4rem;
+            font-size:1rem;
+        }
+
+
+        .product1{
+            height:20rem;
+            width:20rem;
+        }
+    
+        .product2{
+            height:20rem;
+            width:20rem;
+        }
+    
+        .product3{
+            height:20rem;
+            width:20rem;
+        }
+    
+        .product4{
+            height:20rem;
+            width:20rem;
+        }
+        
+        .vierproducten{
+            margin-bottom:0rem;
+            height:25rem;
+        }
+
+        .stapblokken{
+            height:20rem;
+        }
+
+        .stapblok1{
+            height:10rem;
+            font-size:1rem;
+        }
+        
+        .stapblok2{
+            height:10rem;
+            font-size:1rem;
+        }
+
+        .stapblok3{
+            height:10rem;
+            font-size:1rem;
+        }
+
+        .stapblok4{
+            height:10rem;
+            font-size:1rem;
+        }
+
+        .headinggaafproduct{
+            font-size:1;
+            margin-left:1rem;
+        }
+
+        .textgaafproduct{
+            font-size:1rem;
+            width:20rem;
+        }
+
+        .productfoto{
+            margin-left:30rem;
+        }
+
+        .gaafproduct{
+            height:20rem;
+        }
+
+        .sectionreviews{
+            height:220rem;
+        }
+
+        .review{
+            height:70rem;
+            width:25rem;
+        }
+        .stars{
+            margin-top:5rem;
+        }
+
+    }
 
 @media screen and (max-width: 550px){
     .productpaginablok{
@@ -1088,13 +1474,99 @@
         margin-left:5rem;
     }
 
-}
+    .fotoblokproduct{
+        width:8rem;
+        height:8rem;
+    }
+
+    .textblokproduct{
+        width:8rem;
+        height:10rem;
+        font-size:1rem;
+        margin-top:8rem;
+    }
+
+    .card{
+        width:100%;
+    }
+
+    .catogorie{
+        width:100%;
+    }
+
+    .individueelinblok1{
+        height:120rem;
+        flex-wrap: wrap;
+    }
+
+    .individueelblok1{
+        width:100%;
+    }
+
+    .individueelblok1foto{
+        width:100%;
+        height:30rem;
+        margin-left:0;
+    }
+
+    .individueelblok3text{
+        width:100%;
+        height:40rem;
+        font-size:1.6rem;
+    }
+
+    .voegtoeaanwinkelmandje{
+        width:10rem;
+        margin-left:4rem;
+    }
+    
+    .titel{
+        font-size:3rem;
+    }
+
+    .buttonblok{
+        width:14em;
+    }
+
+    .buttonblok--button{
+        width:8rem;
+    }
+    
+
+    .individueelblok2{
+        width:100%;
+        height:40rem;
+        margin-left:0rem;
+    }
+
+    .individueelblok3{
+        width:100%;
+        height:40rem;
+        margin-left:0rem;
+    }
+
+    .groteheading{
+        font-size:1.1rem;
+    }
+
+    .textgroteheading{
+        font-size:1rem;
+        margin-left:30rem;
+    }
+
+    .productfoto{
+        margin-left:23rem;
+    }
+
+    .buttonheading{
+        width:6rem;
+        font-size:0.8rem;
+        margin-left:35rem;
+    }
+
 
 
     @media screen and (max-width: 451px) {
-        .arrow{
-            display:none;
-        }
         .reviews{
             width:100%;
             
@@ -1182,11 +1654,12 @@
         }
 
         .individueelblok1foto{
-            width: 80%;
+            width:100%;
         }
 
         .individueelblok2{
-            width: 90%;
+            width:100%;
+            margin-bottom:2rem;
         }
 
         .buttonblok--button{
@@ -1208,13 +1681,14 @@
         }
 
         .overprogrammeur{
-            font-size: 1.5rem;
+            font-size: 1rem;
+            margin-left:1rem;
         }
 
       .individueelblok3{
         display:flex;
         margin:0;
-        width:0rem;
+        width:100%;
         justify-content:center;
       }
 
@@ -1223,7 +1697,7 @@
       .individueelblok3 p{
         background: #ddd;
         border-radius: 2rem;
-        font-size:0.8rem;
+        font-size:2rem;
       }
       
 
@@ -1237,8 +1711,40 @@
         justify-content:center;
         width:10rem;
       }
-        
-    }
+
+      .winkelwagen--item{
+        width:25rem;
+      }
+
+      .img--winkelwagen{
+        width:4rem;
+        height:4rem;
+      }
+
+      .prijs{
+        font-size:2rem;
+      }
+
+      .headingblok{
+        height:20rem;
+      }
+      
+      .groteheading{
+        margin-left:25rem;
+      }
+
+      .textgroteheading{
+        margin-left:26rem;
+      }
+
+      .buttonheading{
+        margin-left:26rem;
+        margin-top:10rem;
+      }
+
+      .arrow{
+        width:5rem;
+      }
 
 
 
