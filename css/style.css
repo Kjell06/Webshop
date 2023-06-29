@@ -19,6 +19,46 @@
 
     }
 
+
+    /*modal voeg toe aan winkelmandje*/
+
+    .modal{
+        width: 50rem;
+        height: 30rem;
+        background: #f6f6f6;
+        position: fixed;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        top: 20%;
+        left:70rem;
+        box-shadow: 0 0 5rem 0 rgb(0, 0, 0, 0.3);
+        color: #df0000;
+        font-size: 300%;
+        font-weight: 400;
+        border-radius: 0.5rem;
+        display: none;
+        z-index: 1;
+    }
+
+    .a-popup{
+        animation-name: popup;
+        animation-duration: 0.8s;
+        animation-fill-mode: both;
+        animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    }
+    
+    @keyframes popup {
+        from{
+            opacity: 0;
+            transform: translateY(2rem);
+        }
+        to{
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+
     .logoimage{
         height: 10rem;
         width: 17rem;
@@ -719,6 +759,28 @@
         top:2rem;
         left:-8rem;
       }
+
+      .filter{
+        -webkit-appearance:none;
+        appearance: none;
+        
+        width:3rem;
+        height:3rem;
+        background:#726f6f;
+        display:flex;
+        border-radius:1rem;
+    }
+
+    .filter:checked{
+        background:#920000;
+    }
+
+    .label{
+        font-size:3rem;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+    }
 
 
 
